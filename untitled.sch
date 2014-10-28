@@ -3784,10 +3784,10 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <library name="SFTemp">
 <packages>
 <package name="SFTEMP">
-<pad name="GND" x="0" y="2.54" drill="0.8" shape="square"/>
-<pad name="SCL" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="SDA" x="0" y="-2.54" drill="0.8" shape="square"/>
-<pad name="VCC" x="0" y="-5.08" drill="0.8" shape="square"/>
+<pad name="GND" x="0" y="2.54" drill="1.016" shape="square"/>
+<pad name="SCL" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="SDA" x="0" y="-2.54" drill="1.016" shape="square"/>
+<pad name="VCC" x="0" y="-5.08" drill="1.016" shape="square"/>
 <text x="-1.27" y="-3.81" size="1.27" layer="21" rot="R90">thermo</text>
 <text x="1.27" y="2.54" size="1.27" layer="21">gnd</text>
 </package>
@@ -3882,10 +3882,10 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <library name="4pinUSB">
 <packages>
 <package name="4PINUSB">
-<pad name="VSS" x="0" y="3.81" drill="0.8" shape="square"/>
-<pad name="RES" x="0" y="1.27" drill="0.8" shape="square"/>
-<pad name="TX" x="0" y="-1.27" drill="0.8" shape="square"/>
-<pad name="RX" x="0" y="-3.81" drill="0.8" shape="square"/>
+<pad name="VSS" x="0" y="3.81" drill="1.016" shape="square"/>
+<pad name="RES" x="0" y="1.27" drill="1.016" shape="square"/>
+<pad name="TX" x="0" y="-1.27" drill="1.016" shape="square"/>
+<pad name="RX" x="0" y="-3.81" drill="1.016" shape="square"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
 <wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
@@ -3930,10 +3930,10 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <library name="4dScreen">
 <packages>
 <package name="4DSCREEN">
-<pad name="5V" x="0" y="2.54" drill="0.8" shape="square"/>
-<pad name="TX" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="RX" x="0" y="-2.54" drill="0.8" shape="square"/>
-<pad name="GND" x="0" y="-5.08" drill="0.8" shape="square"/>
+<pad name="5V" x="0" y="2.54" drill="1.016" shape="square"/>
+<pad name="TX" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="RX" x="0" y="-2.54" drill="1.016" shape="square"/>
+<pad name="GND" x="0" y="-5.08" drill="1.016" shape="square"/>
 <wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="3.81" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-6.35" x2="-1.27" y2="-6.35" width="0.127" layer="21"/>
@@ -3978,10 +3978,10 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <library name="SFLipoPack">
 <packages>
 <package name="SFLIPO">
-<pad name="EN" x="-5.08" y="2.54" drill="0.8" shape="square"/>
-<pad name="GND" x="-5.08" y="0" drill="0.8" shape="square"/>
-<pad name="VCC" x="-5.08" y="-2.54" drill="0.8" shape="square"/>
-<pad name="PS" x="-5.08" y="-5.08" drill="0.8" shape="square"/>
+<pad name="EN" x="-5.08" y="2.54" drill="1.016" shape="square"/>
+<pad name="GND" x="-5.08" y="0" drill="1.016" shape="square"/>
+<pad name="VCC" x="-5.08" y="-2.54" drill="1.016" shape="square"/>
+<pad name="PS" x="-5.08" y="-5.08" drill="1.016" shape="square"/>
 <wire x1="-7.62" y1="11.43" x2="-7.62" y2="-13.97" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="11.43" x2="17.78" y2="11.43" width="0.127" layer="21"/>
 <wire x1="17.78" y1="-13.97" x2="17.78" y2="11.43" width="0.127" layer="21"/>
@@ -4031,12 +4031,12 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
 <wire x1="5" y1="-5" x2="5" y2="5" width="0.127" layer="21"/>
 <wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
-<pad name="GND" x="6" y="-3" drill="0.8" shape="square"/>
-<pad name="R" x="6" y="0" drill="0.8" shape="square"/>
-<pad name="BTN" x="6" y="3" drill="0.8" shape="square"/>
-<pad name="U" x="-6" y="3" drill="0.8" shape="square"/>
-<pad name="L" x="-6" y="0" drill="0.8" shape="square"/>
-<pad name="D" x="-6" y="-3" drill="0.8" shape="square"/>
+<pad name="GND" x="6" y="-3" drill="1.016" shape="square"/>
+<pad name="R" x="6" y="0" drill="1.016" shape="square"/>
+<pad name="BTN" x="6" y="3" drill="1.016" shape="square"/>
+<pad name="U" x="-6" y="3" drill="1.016" shape="square"/>
+<pad name="L" x="-6" y="0" drill="1.016" shape="square"/>
+<pad name="D" x="-6" y="-3" drill="1.016" shape="square"/>
 </package>
 </packages>
 <symbols>
