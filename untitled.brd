@@ -2614,15 +2614,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="OLED_SCREEN" pad="5V"/>
 <contactref element="3.3LDO" pad="2"/>
 <wire x1="81.534" y1="55.118" x2="54.483" y2="55.118" width="0.3048" layer="16"/>
-<wire x1="44.069" y1="44.2595" x2="44.1325" y2="44.2595" width="0.3048" layer="16"/>
-<wire x1="44.1325" y1="44.2595" x2="53.086" y2="53.213" width="0.3048" layer="16"/>
-<wire x1="53.086" y1="53.213" x2="53.086" y2="53.721" width="0.3048" layer="16"/>
-<wire x1="53.086" y1="53.721" x2="54.483" y2="55.118" width="0.3048" layer="16"/>
 <wire x1="41.656" y1="34.163" x2="42.8685" y2="32.9505" width="0.3048" layer="1"/>
 <wire x1="42.8685" y1="32.9505" x2="42.8685" y2="29.2475" width="0.3048" layer="1"/>
 <wire x1="44.069" y1="44.2595" x2="44.069" y2="34.163" width="0.3048" layer="16"/>
 <wire x1="44.069" y1="34.163" x2="41.656" y2="34.163" width="0.3048" layer="16"/>
 <wire x1="81.534" y1="58.293" x2="81.534" y2="55.118" width="0.3048" layer="16"/>
+<wire x1="54.483" y1="55.118" x2="44.069" y2="44.2595" width="0.3048" layer="16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="I2C3" pad="2"/>
