@@ -2750,14 +2750,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="69.215" y1="51.816" x2="70.485" y2="51.816" width="0.3048" layer="1"/>
 <wire x1="70.485" y1="51.816" x2="70.485" y2="49.8475" width="0.3048" layer="1"/>
 <wire x1="81.803" y1="14.605" x2="86.0425" y2="14.605" width="0.3048" layer="1"/>
-<wire x1="80.5815" y1="19.8755" x2="80.43" y2="20.027" width="0.3048" layer="1"/>
-<wire x1="80.43" y1="20.027" x2="80.43" y2="24.2325" width="0.3048" layer="1"/>
 <wire x1="79.517" y1="18.669" x2="80.5815" y2="19.7335" width="0.3048" layer="1"/>
 <wire x1="80.5815" y1="19.7335" x2="80.5815" y2="19.8755" width="0.3048" layer="1"/>
 <wire x1="79.5805" y1="17.272" x2="80.264" y2="17.272" width="0.3048" layer="1"/>
 <wire x1="80.264" y1="17.272" x2="81.28" y2="18.288" width="0.3048" layer="1"/>
 <wire x1="81.28" y1="18.288" x2="81.28" y2="19.177" width="0.3048" layer="1"/>
 <wire x1="81.28" y1="19.177" x2="80.5815" y2="19.8755" width="0.3048" layer="1"/>
+<wire x1="80.5815" y1="19.8755" x2="79.6925" y2="20.7645" width="0.3048" layer="1"/>
+<wire x1="79.6925" y1="20.7645" x2="79.6925" y2="24.2325" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="OLED_SCREEN" pad="PEZ"/>
