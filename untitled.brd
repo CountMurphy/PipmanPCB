@@ -715,10 +715,10 @@ chip</description>
 <library name="4dScreen">
 <packages>
 <package name="4DSCREEN">
-<pad name="5V" x="0" y="2.54" drill="1.016" shape="square"/>
-<pad name="TX" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="RX" x="0" y="-2.54" drill="1.016" shape="square"/>
-<pad name="GND" x="0" y="-5.08" drill="1.016" shape="square"/>
+<pad name="5V" x="0" y="-5.08" drill="1.016" shape="square"/>
+<pad name="TX" x="0" y="-2.54" drill="1.016" shape="square"/>
+<pad name="RX" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="GND" x="0" y="2.54" drill="1.016" shape="square"/>
 <wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-6.35" x2="-1.27" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-6.35" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
@@ -2414,9 +2414,12 @@ Please make sure your boards conform to these design rules.</description>
 <via x="45.0215" y="47.0535" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="50.5" y1="45.4313" x2="46.6437" y2="45.4313" width="0.3048" layer="1"/>
 <wire x1="46.6437" y1="45.4313" x2="45.0215" y2="47.0535" width="0.3048" layer="1"/>
-<wire x1="45.0215" y1="47.0535" x2="53.721" y2="55.626" width="0.3048" layer="16"/>
-<wire x1="53.721" y1="55.626" x2="74.041" y2="55.626" width="0.3048" layer="16"/>
-<wire x1="74.041" y1="55.626" x2="76.454" y2="58.293" width="0.3048" layer="16"/>
+<wire x1="45.0215" y1="47.0535" x2="52.959" y2="54.737" width="0.3048" layer="16"/>
+<wire x1="52.959" y1="54.737" x2="54.229" y2="56.007" width="0.3048" layer="16"/>
+<wire x1="54.229" y1="56.007" x2="74.676" y2="56.007" width="0.3048" layer="16"/>
+<wire x1="74.676" y1="56.007" x2="75.692" y2="57.023" width="0.3048" layer="16"/>
+<wire x1="75.692" y1="57.023" x2="78.994" y2="57.023" width="0.3048" layer="16"/>
+<wire x1="78.994" y1="57.023" x2="78.994" y2="58.293" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="OLED_SCREEN" pad="TX"/>
@@ -2426,12 +2429,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="50.5" y1="46.0813" x2="48.5337" y2="46.0813" width="0.3048" layer="1"/>
 <wire x1="48.5337" y1="46.0813" x2="45.974" y2="47.879" width="0.3048" layer="1"/>
 <wire x1="45.974" y1="47.879" x2="45.974" y2="50.1015" width="0.3048" layer="1"/>
-<wire x1="53.3793125" y1="56.134" x2="53.24675" y2="56.1395625" width="0.3048" layer="16"/>
-<wire x1="53.3793125" y1="56.134" x2="70.866" y2="56.134" width="0.3048" layer="16"/>
-<wire x1="78.994" y1="58.293" x2="78.994" y2="60.325" width="0.3048" layer="16"/>
-<wire x1="78.994" y1="60.325" x2="73.152" y2="60.325" width="0.3048" layer="16"/>
-<wire x1="73.152" y1="60.325" x2="70.866" y2="58.039" width="0.3048" layer="16"/>
-<wire x1="70.866" y1="58.039" x2="70.866" y2="56.134" width="0.3048" layer="16"/>
+<wire x1="53.3793125" y1="56.261" x2="53.24675" y2="56.1395625" width="0.3048" layer="16"/>
+<wire x1="53.3793125" y1="56.261" x2="53.7603125" y2="56.642" width="0.3048" layer="16"/>
+<wire x1="53.7603125" y1="56.642" x2="74.295" y2="56.642" width="0.3048" layer="16"/>
+<wire x1="74.295" y1="56.642" x2="76.327" y2="58.293" width="0.3048" layer="16"/>
+<wire x1="76.327" y1="58.293" x2="76.454" y2="58.293" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$18">
 <contactref element="U$1" pad="36"/>
@@ -2466,7 +2468,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.497" y1="59.69" x2="41.148" y2="60.96" width="0.3048" layer="1"/>
 <wire x1="39.497" y1="46.609" x2="41.656" y2="44.45" width="0.3048" layer="1"/>
 <wire x1="41.656" y1="44.45" x2="41.656" y2="39.243" width="0.3048" layer="1"/>
-<wire x1="41.148" y1="60.96" x2="44.45" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="41.148" y1="60.96" x2="44.45" y2="60.96" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="5WAYSWITCH" pad="U"/>
@@ -2634,13 +2636,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="LIPOCHARGER-BOOSTER" pad="VCC"/>
 <contactref element="OLED_SCREEN" pad="5V"/>
 <contactref element="3.3LDO" pad="2"/>
-<wire x1="81.534" y1="54.356" x2="53.975" y2="54.483" width="0.3048" layer="16"/>
 <wire x1="41.656" y1="34.163" x2="42.8685" y2="32.9505" width="0.3048" layer="1"/>
 <wire x1="42.8685" y1="32.9505" x2="42.8685" y2="29.2475" width="0.3048" layer="1"/>
-<wire x1="44.069" y1="44.2595" x2="44.069" y2="34.163" width="0.3048" layer="16"/>
+<wire x1="44.069" y1="53.594" x2="44.069" y2="34.163" width="0.3048" layer="16"/>
 <wire x1="44.069" y1="34.163" x2="41.656" y2="34.163" width="0.3048" layer="16"/>
-<wire x1="81.534" y1="58.293" x2="81.534" y2="54.356" width="0.3048" layer="16"/>
-<wire x1="53.975" y1="54.483" x2="44.069" y2="44.2595" width="0.3048" layer="16"/>
+<wire x1="44.069" y1="53.594" x2="44.196" y2="53.721" width="0.3048" layer="16"/>
+<wire x1="44.196" y1="53.721" x2="49.149" y2="53.721" width="0.3048" layer="16"/>
+<wire x1="49.149" y1="53.721" x2="50.927" y2="55.499" width="0.3048" layer="16"/>
+<wire x1="50.927" y1="55.499" x2="51.308" y2="55.499" width="0.3048" layer="16"/>
+<wire x1="51.308" y1="55.499" x2="52.959" y2="57.277" width="0.3048" layer="16"/>
+<wire x1="52.959" y1="57.277" x2="72.263" y2="57.277" width="0.3048" layer="16"/>
+<wire x1="72.263" y1="57.277" x2="73.914" y2="58.293" width="0.3048" layer="16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="I2C3" pad="2"/>

@@ -4008,10 +4008,10 @@ Real time clock (RTC) with battery backup ability. Talk to it via i2c</descripti
 <library name="4dScreen">
 <packages>
 <package name="4DSCREEN">
-<pad name="5V" x="0" y="2.54" drill="1.016" shape="square"/>
-<pad name="TX" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="RX" x="0" y="-2.54" drill="1.016" shape="square"/>
-<pad name="GND" x="0" y="-5.08" drill="1.016" shape="square"/>
+<pad name="5V" x="0" y="-5.08" drill="1.016" shape="square"/>
+<pad name="TX" x="0" y="-2.54" drill="1.016" shape="square"/>
+<pad name="RX" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="GND" x="0" y="2.54" drill="1.016" shape="square"/>
 <wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-6.35" x2="-1.27" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-6.35" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
